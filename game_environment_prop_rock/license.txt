@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Environment Prop: Rock
+* source:	https://sketchfab.com/3d-models/game-environment-prop-rock-458bc46ae1bd41f984f3c5f2edd5f77a
+* author:	dianmozokov (https://sketchfab.com/dianmozokov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Environment Prop: Rock" (https://sketchfab.com/3d-models/game-environment-prop-rock-458bc46ae1bd41f984f3c5f2edd5f77a) by dianmozokov (https://sketchfab.com/dianmozokov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
