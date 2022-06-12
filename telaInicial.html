@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon/favicon-32x32.png">
+    <title>SPACE WS</title>
+
+    <style>
+        *,body{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('../../images/fundoInicial.gif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+.mainTitle{
+    font-family: 'Star jedi',sans-serif;
+    color:#ffffff;
+    font-size: 120pt;
+}
+.mainContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.btnContainer{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3%;
+    font-size: 24pt;
+    border: none;
+    width: 60%;
+    border-radius: 30px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-weight: bold;
+    border: 5px solid #7c261d;
+}
+.btn:hover{
+    background-color: #ab372a;
+    color:#cccccc
+}
+.btn:active{
+    background-color: #5d1e17;
+    color:#aaaaaa
+}
+    </style>
+</head>
+<body>
+    
+    <div class="mainContainer">
+        <div class="btnContainer">
+            <a href="jogoFinal.html" class="btn">Jogar</a>
+            <a href="comoJogar.html" class="btn">Instruções</a>
+            <a href="creditos.html" class="btn">Créditos</a>
+        </div>
+        <h1 class="mainTitle">SPACE WS</h1>
+    </div>
+</body>
+</html>

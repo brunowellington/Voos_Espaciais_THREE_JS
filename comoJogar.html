@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon/favicon-32x32.png">
+    <title>SPACE WS - Como Jogar</title>
+    <style>
+        *,body{
+    margin:0;
+    padding:0;
+        }
+        body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/fundoInicial.gif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 30px;
+}
+.mainTitle{
+    font-family: 'Star jedi',sans-serif;
+    font-size: 70pt;
+    text-align: center;
+    color:#000000;
+}
+.subtitle{
+    padding-left:3%;
+    font-size: 22pt;
+    color: #bbbbbb;
+}
+.devs,.agradecimentos{
+    padding-left:7%;
+    padding-right:7%;
+    font-size: 16pt;
+    text-align: justify;
+    color: #444444;
+}
+
+.btn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1%;
+    font-size: 24pt;
+    border: none;
+    width: 10%;
+    border-radius: 30px;
+    background-color: #e74c3c;
+    margin-top:2%;
+    color: #ffffff;
+    font-weight: bold;
+    border: 5px solid #7c261d;
+}
+.btn:hover{
+    background-color: #ab372a;
+    color:#cccccc
+}
+.btn:active{
+    background-color: #5d1e17;
+    color:#aaaaaa
+}
+    </style>
+
+</head>
+<body>
+    
+    
+    <div class="mainContainer">
+        <div class="btnContainer">
+        </div>
+        <h1 class="mainTitle">SPACE WS</h1>
+        <div class="infoDevs">
+            <h3 class="subtitle">Instruções</h3>
+            <div class="devs">
+                <p><b>Seta para Cima:</b> Subir a nave</p>
+                <p><b>Seta para Baixo:</b> Descer a nave</p>
+                <p><b>Botão Enter:</b> Iniciar o Jogo</p>
+            </div>
+
+        </div>
+    </div>
+    <a href="../telaInicial.html" class="btn">Voltar</a>
+</body>
+</html>

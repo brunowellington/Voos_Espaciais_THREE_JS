@@ -1,0 +1,6 @@
+nave:
+https://sketchfab.com/3d-models/space-shuttle-ff4b00b7ebb24fdd98fb96b08f2c43c9
+
+fundo:
+https://threejs.org/docs/#api/en/loaders/CubeTextureLoader
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/icon/favicon-32x32.png">
+    <title>SPACE WS - Jogo</title>
+    <style>
+			body{margin: 0px;
+				 background-color: #bbbbbb;
+				 overflow: hidden;}
+
+         
+         #contador{
+           position: absolute;
+           top:5vh;
+           left: 50vw;
+           color: #ffffff;
+           font-family: 'Star jedi', sans-serif;
+         }
+
+         #btSair{
+           position: absolute;
+           text-decoration: none;
+           
+           font-family: 'Star jedi', sans-serif;
+           color: white;
+           top: 5vh;
+           left: 5vw;
+
+         }
+
+		</style>
+  </head>
+  <body>
+
+    <script src='js/three.js'></script>
+    <script src="js/OrbitControls.js"></script>
+		<script src="js/GLTFLoader.js"></script>
+    <script src="scene.js"></script>
+
+    <h1 id="contador">0000</h1>
+
+    <a href="telaInicial.html" id="btSair"><h2>Sair</h2></a>
+  
+
+  </body>
+</html>
